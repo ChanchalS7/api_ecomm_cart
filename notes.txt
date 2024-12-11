@@ -1,0 +1,30 @@
+ecommerce-backend/
+│
+├── config/
+│   └── db.js                 # MongoDB connection setup
+│
+├── controllers/
+│   ├── adminController.js    # Admin functionalities
+│   ├── cartController.js     # Cart functionalities
+│   └── checkoutController.js # Checkout functionalities
+│
+├── middleware/
+│   └── validateInput.js      # Input validation middleware
+│
+├── models/
+│   ├── Discount.js           # Discount schema
+│   ├── Order.js              # Order schema
+│   ├── Product.js            # Product schema
+│   └── User.js               # User schema
+│
+├── routes/
+│   ├── adminRoutes.js        # Admin routes
+│   ├── cartRoutes.js         # Cart routes
+│   └── checkoutRoutes.js     # Checkout routes
+│
+├── utils/
+│   └── generateCode.js       # Helper function to generate discount codes
+│
+├── .env                      # Environment variables
+├── app.js                    # Main app setup
+└── server.js                 # Entry point
